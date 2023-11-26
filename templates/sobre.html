@@ -1,4 +1,12 @@
 {% extends "modelo.html" %}
 {% block conteudo %}
-    <p>Teste</p>
+<div class="SobreDevs">
+    <img src="{{ url_for('static', filename='imgs/cards/miguel_perfil.jpeg') }}" alt="Nicollas">
+    <div class="texto">
+        <h2>Nicollas Garibaldi</h2>
+        <p><a href="https://www.instagram.com/nicollasgaribaldi/" target="_blank">Instagram: Nicollas </a><br>
+            <a href="https://github.com/nicollasgaribaldi" target="_blank">GitHub | Nicollas</a></p>
+        <p>Dev backend. Gosta de roubar as coisas da propria casa pra comprar droga. é gente fina</p>
+    </div>
+</div>
 {% endblock %}
